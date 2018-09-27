@@ -11,10 +11,10 @@ int main()
 
   cout<<"\n==GROCERY LIST MANAGER==";
 do {
-        cout<<"\nEnter your choice:";
+        cout<<"\nEnter your choice: ";
         cout<<"\n (A)dd an item";
         cout<<"\n (Q)uit";
-        cout<<"\nYour choice (A/Q): ";
+        cout<<"\nYour choice (A/Q): What is the item?";
         cin>>input;
         cout<<list[0]<<endl<<list[1]<<endl<<list[2]<<endl<<list[3]<<endl<<list[4]<<endl;
 
