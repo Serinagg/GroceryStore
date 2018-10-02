@@ -14,7 +14,7 @@ do {
         cout<<"\nEnter your choice: ";
         cout<<"\n (A)dd an item";
         cout<<"\n (Q)uit";
-        cout<<"\nYour choice (A/Q): What is the item?";
+        cout<<"\nYour choice (A/Q): ";
         cin>>input;
         cout<<list[0]<<endl<<list[1]<<endl<<list[2]<<endl<<list[3]<<endl<<list[4]<<endl;
 
@@ -28,7 +28,7 @@ do {
                 cout<< "You'll need a bigger list!";
         }
     }
-} while(input != 'q' && input != 'Q');
+}while(input != 'q' && input != 'Q');
  
 
   return 0;
