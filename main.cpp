@@ -26,6 +26,7 @@ int main()
                 } 
         }
         while(input != 'q' && input != 'Q');
+        cout<<"==ITEMS TO BUY==\n"<<endl;
 
         for (int i = 0; i< list.size(); i++)
         {
