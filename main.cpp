@@ -14,13 +14,13 @@ int main()
                 cout<<"\n==GROCERY LIST MANAGER==";
                 cout<<"\nEnter your choice: ";
                 cout<<"\n (A)dd an item";
-                cout<<"\n (Q)uit"<<endl;
+                cout<<"\n (Q)uit";
                 cout<<"\nYour choice (A/Q): ";
                 cin>>input;
 
                 if(input =='a' || input =='A')
                 {
-                        cout<<"what is the item?"<<endl;
+                        cout<<"what is the item?\n"<<endl;
                         cin>>item;
                         list.push_back(item);
                 } 
