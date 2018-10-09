@@ -14,9 +14,8 @@ int main()
                 cout<<"\n==GROCERY LIST MANAGER==";
                 cout<<"\nEnter your choice: ";
                 cout<<"\n (A)dd an item";
-                cout<<"\n (Q)uit";
-                cout<<"\nYour choice (A/Q): What is the item?";
-                cin>>input<<endl;
+                cout<<"\n (Q)uit"<<endl;
+                cin>>input;
 
                 if(input =='a' || input =='A')
                 {
