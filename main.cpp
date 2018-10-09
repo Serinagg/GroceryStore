@@ -20,7 +20,7 @@ int main()
 
                 if(input =='a' || input =='A')
                 {
-                        cout<<"what is the item?\n"<<endl;
+                        cout<<"What is the item?\n"<<endl;
                         cin>>item;
                         list.push_back(item);
                 } 
