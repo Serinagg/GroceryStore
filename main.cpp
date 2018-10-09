@@ -15,25 +15,25 @@ int main()
                 cout<<"\nEnter your choice: ";
                 cout<<"\n (A)dd an item";
                 cout<<"\n (Q)uit"<<endl;
-                cout<<"\nYour choice (A/Q): What is the item?";
+                cout<<"\nYour choice (A/Q): ";
                 cin>>input;
 
                 if(input =='a' || input =='A')
                 {
+                        cout<<"what is the item?"<<endl;
                         cin>>item;
                         list.push_back(item);
                 } 
         }
         while(input != 'q' && input != 'Q');
-        cout<<"==ITEMS TO BUY==\n";
-
-        for (int i = 0; i< list.size(); i++)
+        if (list.size() == 0)
         {
-                cout<<i<<" "<<list[i]<<endl;
-
-                if (list.size() == 0)
+                cout<<"No items to buy!"<<endl;
+        } else{
+                cout<<"==ITEMS TO BUY=="<<endl;
+                for (int i = 0; i< list.size(); i++)
                 {
-                        cout<<"No items to buy!"<<endl;
+                        cout<<i+1<<" "<<list[i]<<endl;
                 }
         }
 
