@@ -10,6 +10,7 @@ int main()
         char input; 
         string item;
 
+<<<<<<< HEAD
         cout<<"\n==GROCERY LIST MANAGER==";
         do 
         {
@@ -18,7 +19,14 @@ int main()
                 cout<<"\n (Q)uit";
                 cout<<"\nYour choice (A/Q): ";
                 cin>>input;
-
+=======
+  cout<<"\n==GROCERY LIST MANAGER==";
+do {
+        cout<<"\nEnter your choice: ";
+        cout<<"\n (A)dd an item";
+        cout<<"\n (Q)uit";
+        cout<<"\nYour choice (A/Q): ";
+        cin>>input;
 
                 if(input =='a' || input =='A')
                 {
