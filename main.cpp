@@ -10,23 +10,23 @@ int main()
         char input; 
         string item;
 
-  cout<<"\n==GROCERY LIST MANAGER==";
-do {
-        cout<<"\nEnter your choice: ";
-        cout<<"\n (A)dd an item";
-        cout<<"\n (Q)uit";
-        cout<<"\nYour choice (A/Q): ";
-        cin>>input;
+        do {
+                cout<<"\n==GROCERY LIST MANAGER==";
+                cout<<"\nEnter your choice: ";
+                cout<<"\n (A)dd an item";
+                cout<<"\n (Q)uit";
+                cout<<"\nYour choice (A/Q): What is the item?";
+                cin>>input;
 
                 if(input =='a' || input =='A')
                 {
-                        cout<<"\nWhat is the item?"<<endl;
                         cin>>item;
                         list.push_back(item);
                 } 
         }
         while(input != 'q' && input != 'Q');
 
+        cout<<"==ITEMS TO BUY==\n";
         for (int i = 0; i< list.size(); i++)
         {
                 cout<<list[i]<<endl;
@@ -34,7 +34,7 @@ do {
         }
         if (list.size() == 0)
         {
-                cout<<"No items to buy"<<endl;
+                cout<<"No items to buy!"<<endl;
         }
 
         return 0;
