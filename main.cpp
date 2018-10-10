@@ -41,7 +41,7 @@ int main()
         {
                 cout<<"No items to buy!"<<endl;
         } else {
-                cout<<"==ITEMS TO BUY==";
+                cout<<"==ITEMS TO BUY=="<<endl;
         }
                 for (int i = 0; i< list.size(); i++)        
         {
