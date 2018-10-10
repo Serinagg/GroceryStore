@@ -28,7 +28,7 @@ int main()
                         cout<<"What is the item?"<<endl;
                         cin>>item;
                         list.push_back(item);
-                } else if (input == 'd' || input == 'D')
+                } else if (list.size() > 0 && input == 'd' || input == 'D')
                 {
                         item = list[list.size()-1];
                         list.pop_back();
