@@ -32,7 +32,7 @@ int main()
                 {
                         item = list[list.size()-1];
                         list.pop_back();
-                        cout<<item<<" was deleted from the list.";
+                        cout<<item<<" was deleted from the list."<<endl;
                 }
 
         } while(input != 'q' && input != 'Q');
