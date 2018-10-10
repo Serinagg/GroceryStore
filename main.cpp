@@ -20,7 +20,7 @@ int main()
 
                 }
                 cout<<"\n (Q)uit";
-                cout<<"\nYour choice (A/Q):";
+                cout<<"\nYour choice (A/Q): ";
                 cin>>input;
 
                 if(input =='a' || input =='A')
@@ -32,13 +32,14 @@ int main()
                 {
                         item = list[list.size()-1];
                         list.pop_back();
-                        cout<<item<<" was delete from the list.";
+                        cout<<item<<" was deleted from the list.";
                 }
 
         } while(input != 'q' && input != 'Q');
 
         for (int i = 0; i< list.size(); i++)
         {
+                cout<<"==ITEMS TO BUY=="<<endl;
                 cout<<i + 1<<" "<<list[i]<<endl;
         }
         if (list.size() == 0)
